@@ -36,22 +36,22 @@ const checkboxWraper = document.createElement('div');
 checkboxWraper.classList.add('password-wraper');
 checkboxWraper.innerHTML = `
     <div class="checkbox-wrapper">
-        <input class="password-checkbox" type="checkbox" checked="true" id="numberchars" /> Numberchars
+        <input class="password-checkbox" type="checkbox" checked="true" id="numberchars" /> 0...9
         <label for="numberchars"></label>
         </div>
         
     <div class="checkbox-wrapper">
-        <input class="password-checkbox" type="checkbox" checked="true" id="upperchars" /> Upperchars
+        <input class="password-checkbox" type="checkbox" checked="true" id="upperchars" /> A...Z
         <label for="upperchars"></label>
     </div>
 
     <div class="checkbox-wrapper">
-        <input class="password-checkbox" type="checkbox" checked="true" id="lowerchars" /> Lowerchars
+        <input class="password-checkbox" type="checkbox" checked="true" id="lowerchars" /> a...z
         <label for="lowerchars"></label>
     </div>
 
     <div class="checkbox-wrapper">
-        <input class="password-checkbox" type="checkbox" checked="true" id="symbolchars" /> Symbolchars
+        <input class="password-checkbox" type="checkbox" checked="true" id="symbolchars" /> &...%
         <label for="symbolchars"></label>
     </div>
     `;
@@ -59,7 +59,7 @@ checkboxWraper.innerHTML = `
 const counterChars = document.createElement('div');
 counterChars.classList.add('password-length-wraper');
 counterChars.innerHTML = `
-        <h3 class="password-length">Password length:</h3>
+        <h3 class="password-length">Длина пароля:</h3>
         <button class="password-counter active">8</button>
         <button class="password-counter">12</button>
         <button class="password-counter">24</button>

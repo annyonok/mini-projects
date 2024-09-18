@@ -62,7 +62,7 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    gap: 20px;
+    gap: 10px;
 }
 
 .password-length-wraper {
@@ -83,7 +83,6 @@ body {
     display: inline-flex;
     align-items: center;
     user-select: none;
-    margin-right: 20px;
 }
 
 .password-checkbox + label:last-child {
@@ -99,7 +98,7 @@ body {
     flex-grow: 0;
     border: 1px solid blueviolet;
     border-radius: 5px;
-    margin-right: 10px;
+    margin-right: 20px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: 50% 50%;
@@ -136,7 +135,7 @@ body {
 .password-length {
     font-size: 16px;
     font-weight: 400;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .password-counter {
