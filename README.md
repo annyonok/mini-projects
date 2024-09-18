@@ -6,3 +6,4 @@ https://annyonok.github.io/mini-projects/galery_cards/ <br>
 https://annyonok.github.io/mini-projects/mini_game/ <br>
 https://annyonok.github.io/mini-projects/slider/ <br>
 https://annyonok.github.io/mini-projects/password_generator/ <br>
+https://annyonok.github.io/mini-projects/tetris_game/ <br>
