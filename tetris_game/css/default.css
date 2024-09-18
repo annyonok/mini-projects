@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+/*толщина холста — 1 пиксель, белый цвет*/
+canvas {
+    border: 1px solid white;
+}
