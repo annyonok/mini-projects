@@ -2,6 +2,7 @@ const mainEl = document.querySelector('.main');
 
 const passwordEl = document.createElement('input');
 passwordEl.classList.add('password');
+passwordEl.style.width = '250px';
 passwordEl.setAttribute('placeholder', 'Сгенерировать пароль');
 passwordEl.addEventListener('keypress', (e) => {
     e.preventDefault();
@@ -59,9 +60,9 @@ const counterChars = document.createElement('div');
 counterChars.classList.add('password-length-wraper');
 counterChars.innerHTML = `
         <h3 class="password-length">Password length:</h3>
-        <button class="password-counter active">6</button>
-        <button class="password-counter">9</button>
+        <button class="password-counter active">8</button>
         <button class="password-counter">12</button>
+        <button class="password-counter">24</button>
 `;
 
 function generatePassword(passwordLength) {
